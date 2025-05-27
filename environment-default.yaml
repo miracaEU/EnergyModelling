@@ -1,0 +1,10 @@
+name: miraca_energy_env
+dependencies:
+- numpy==1.26.4
+- pandas==2.2.2
+- requests==2.31.0
+- shapely==2.0.6
+- pip
+- pip:
+    - pandapower==2.14.11
+    - geopandas==0.14.4
