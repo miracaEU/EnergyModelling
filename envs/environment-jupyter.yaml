@@ -1,0 +1,16 @@
+name: miraca_energy_env
+dependencies:
+- numpy==1.26.4
+- pandas==2.2.2
+- requests==2.31.0
+- shapely==2.0.6
+- openpyxl==3.1.5
+- jupyter
+- xlrd==2.0.1
+- matplotlib==3.8.0
+- numba==0.59.0
+- plotly=5.9.0
+- pip
+- pip:
+    - pandapower==2.14.11
+    - geopandas==0.14.4
