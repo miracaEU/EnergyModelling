@@ -1,4 +1,4 @@
-name: miraca_energy_env
+name: miraca
 channels:
   - conda-forge
 dependencies:
