@@ -12,9 +12,26 @@ You can set up your environment using either Conda (recommended) or pip.
    ``` 
 3. Activate the environment:   
    ```bash
+   conda activate miraca
+   ```
+Or create separate environment based on channel and use case from "envs" folder:
+- Default channel:
+   ```bash
+   conda env create -f envs/environment-default.yaml
+   ```
+- Conda-forge
+   ```bash
+   conda env create -f envs/environment-conda-forge.yaml
+   ```
+- Jupyter-notebook
+   ```bash
+   conda env create -f envs/environment-jupyter.yaml 
+   ```
+Activate virtual env by running:   
+   ```bash
    conda activate miraca_energy_env
    ```
-   
+      
 ### Option B: Pip Installation
 1. Open a terminal or command prompt.
 
