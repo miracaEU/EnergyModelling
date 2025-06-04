@@ -8,12 +8,13 @@ You can set up your environment using either Conda (recommended) or pip.
 
 2. Run the following command to create a conda virtual env:
    ```bash
-   conda env create -f environment-default.yaml
+   conda env create -f environment.yaml
    ``` 
 3. Activate the environment:   
    ```bash
    conda activate miraca_energy_env
-   ``` 
+   ```
+   
 ### Option B: Pip Installation
 1. Open a terminal or command prompt.
 
@@ -39,8 +40,21 @@ You can set up your environment using either Conda (recommended) or pip.
     pip install -r requirements.txt
     ```
 
-## 2. Run the Main Program
+## 2. Run Jupyter Notebook or Main Program 
 
+### Option 1: Prepare Kernel and Run Juypter Notebook
+1. Prepare the kernel by running the following command in the terminal:
+
+    ```bash
+    python -m ipykernel install --user --name=miraca_energy_env --display-name "Python (miraca_energy_env)"	     
+    ```
+2. Start Jupyter Notebook by executing:
+
+    ```bash
+    jupyter notebook	     
+    ```
+
+### Option 2: Run the Main Program from the Terminal
 - Execute the Python script within the virtual environment:
 
     ```bash
@@ -52,7 +66,7 @@ You can set up your environment using either Conda (recommended) or pip.
     ```
 ## 3. Configurable Options and Required Input Parameters
 
-### 2. Country Selection
+### 1. Country Selection
 - Available European countries:
 
     ```
@@ -125,7 +139,7 @@ You can set up your environment using either Conda (recommended) or pip.
 - Installed capacities per bus
 - Installed capacities at real locations
 
-### 6. Notes
+## 4. Notes
 
 - If using Conda, ensure Conda is installed and updated before running commands.
 - If using pip, ensure Python and pip are up-to-date before installing dependencies.
