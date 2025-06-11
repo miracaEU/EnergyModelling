@@ -143,6 +143,7 @@ Activate virtual env by running:
 **Type yes or no. If yes, the following plots will be generated:**
 
 - Processed NUTS Regions
+- Connections Between NUTS Centroids (Loads) and Buses
 - Connections Between Generators and Buses
 
 #### 5.2 Plotting Generation and Consumption Results:
