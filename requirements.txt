@@ -2,7 +2,7 @@ geopandas==0.14.4
 numpy==1.26.4
 pandapower==2.14.11
 pandas==2.2.2
-requests==2.32.0
+requests==2.32.4
 shapely==2.0.6
 openpyxl==3.1.5
 jupyter
